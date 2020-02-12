@@ -21,6 +21,8 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        <preference name="pods_ios_min_version" value="10.0" />
+        <pod name="Branch" spec="~&gt; 0.31.3" />
     </platform>
     <branch-config>
         <branch-key value="key_live_laMUFGftCeYX2ZbeMKWQ9jnatwkLirhb" />
@@ -28,4 +30,6 @@
         <link-domain value="earneabranch.app.link" />
         <ios-team-release value="J6GEE2EH92" />
     </branch-config>
+    <plugin name="cordova-plugin-cocoapod-support" spec="^1.6.2" />
+    <engine name="ios" spec="^5.1.1" />
 </widget>
