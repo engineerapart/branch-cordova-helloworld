@@ -1,6 +1,6 @@
 {
-  "name": "com.testapp.helloworld",
-  "displayName": "HelloWorld",
+  "name": "com.engineerapart.ioniccordovahelloworld",
+  "displayName": "CordovaHelloWorld",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
